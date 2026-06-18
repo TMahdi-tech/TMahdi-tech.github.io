@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.bord {
+  width: 190px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 5px;
+}
+
+.vakje {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+}
+.score {
+  width: 220px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.score p { margin: 0; }

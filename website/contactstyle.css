@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid red;
+}
+
+body{
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 999; 
+    background: white; 
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#header-img > img {
+    height:10vh;
+    padding: 5px;
+}
+#sale {
+    background-color: #252525;
+    color: white;
+    font-size: 1.2rem;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#sale >h1 {
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+#sale >p {
+    font-family: monospace;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    width: 10vw;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+#sale a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#sale a:visited {
+    color: inherit;
+}
+
+.top {
+    height: 20vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    text-align: center;
+    overflow: auto;
+}
+
+input {
+    border-radius: 10px;
+
+}
+#Name {
+    font-size: 1rem;
+    padding: 15px;
+    width: 10vw;
+    height: 3vh;
+}
+#Email {
+    font-size: 1rem;
+    padding: 15px;
+    width: 10vw;
+    height: 3vh;
+}
+#Number {
+    font-size: 1rem;
+    padding: 15px;
+    width: 10vw;
+    height: 3vh;
+}
+
+select {
+    font-size: 1.2rem;
+}
+
+#Message {
+    max-height: 25vh;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    width: 50%;       
+    min-height: 100px; 
+    resize: vertical;  
+}
+
+
+#submit {
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.container {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 95vw;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    min-height: 80vh;
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.support-form {
+    height: 90vh;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.support-form >h1 {
+    font-size: 4rem;
+    font-family: monospace;
+}
+.support-img {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#labels {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+}
+

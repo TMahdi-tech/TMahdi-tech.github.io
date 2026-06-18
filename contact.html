@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/bionix" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header id="Nav-Header" class="navbar sticky-top d-flex justify-content-between align-items-center py-3 px-3 px-md-5 mx-auto w-100" style="max-width: 1200px;">
+        <h1 class="mb-0 m-0">Mahdi Tabirei</h1>
+        <div id="navC" class="d-flex flex-wrap gap-2 gap-md-3 align-items-center justify-content-center m-0">
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="projects.html">Projecten</a></nav>
+            <nav><a href="about.html">About me</a></nav>
+            <nav><a href="about-site.html">Over deze site</a></nav>
+            <nav><a href="contact.html">Contact</a></nav>
+        </div>
+    </header>
+
+<div class="container mx-auto mt-4 flex-grow-1 d-flex align-items-center justify-content-center" style="max-width: 1200px;">
+    <section id="contact-container" class="my-5 p-4 p-md-5 row g-4 g-md-5 align-items-stretch position-relative w-100 mx-auto">
+        <div id="information" class="col-12 col-md-5 pt-2">
+            <h1 class="text-center text-md-center mb-4">informatie & Contact</h1>
+            <div id="contact-chips" class="d-flex flex-column gap-3">
+                <div class="contact-chip d-flex align-items-center p-3"><span style="font-weight: bold;">Naam</span>:&nbsp;&nbsp; Mahdi</div>
+                <div class="contact-chip d-flex align-items-center p-3"><span style="font-weight: bold;">Email</span>:&nbsp; placeholder@gmail.com</div>
+                <div class="contact-chip d-flex align-items-center p-3"><span style="font-weight: bold;">Telefoon</span>:&nbsp; 06 12345678</div>
+                <div class="contact-chip d-flex align-items-center p-3"><span style="font-weight: bold;">School</span>:&nbsp; Roc Mondriaan</div>
+            </div>
+        </div>
+        <div id="forms" class="col-12 col-md-7 pt-2 p-md-4">
+            <h1 class="text-center text-md-center mb-4 w-100">Contact form</h1>
+            <form action="" id="form" class="d-flex flex-column gap-3 w-100 h-100">
+                <label for="name" class="visually-hidden">Naam</label>
+                <input type="text" name="Name" id="name" placeholder="Naam..." class="form-control" required>
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" name="Email" id="email" placeholder="Email..." class="form-control" required>
+                <label for="tel" class="visually-hidden">Telefoon</label>
+                <input type="tel" name="telefoon" id="tel" placeholder="Telefoon..." class="form-control" required>
+                <label for="message" class="visually-hidden">Message</label>
+                <textarea name="message" id="message" placeholder="Type your message here..." class="form-control flex-grow-1" rows="6" required></textarea>
+                <button id="send-btn" type="submit" class="btn mt-3 align-self-start py-2 px-4">Stuur bericht</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer class="mt-auto pt-5 pb-3 custom-footer">
+    <div class="container mx-auto" style="max-width: 1200px;">
+        <div class="row gy-4 mb-4">
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h3 class="mb-3 text-white" style="font-family: var(--head-font);">Mahdi Tabirei</h3>
+                <p class="text-center text-md-start text-light" style="font-size: 0.9rem;">
+                    Software Developer student met een passie voor het bouwen van mooie en functionele webapplicaties.
+                </p>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                <h5 class="mb-3 text-white">Navigatie</h5>
+                <ul class="list-unstyled text-center d-flex flex-column gap-2">
+                    <li><a href="index.html" class="text-decoration-none text-light footer-link">Home</a></li>
+                    <li><a href="projects.html" class="text-decoration-none text-light footer-link">Projecten</a></li>
+                    <li><a href="about.html" class="text-decoration-none text-light footer-link">About me</a></li>
+                    <li><a href="about-site.html" class="text-decoration-none text-light footer-link">Over deze site</a></li>
+                    <li><a href="contact.html" class="text-decoration-none text-light footer-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-end">
+                <h5 class="mb-3 text-white">Socials</h5>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-decoration-none text-light footer-link">GitHub</a>
+                    <a href="#" class="text-decoration-none text-light footer-link">LinkedIn</a>
+                    <a href="mailto:placeholder@gmail.com" class="text-decoration-none text-light footer-link">Email</a>
+                </div>
+            </div>
+        </div>
+        <hr style="border-color: rgba(255,255,255,0.1);">
+        <div class="text-center text-light mt-3" style="font-size: 0.85rem;">
+            &copy; 2024 Mahdi Tabirei. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
